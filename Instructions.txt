@@ -1,0 +1,21 @@
+For Running on local machine, Run these commands on command prompt,
+	conda create -n myenv
+	
+	conda activate myenv
+
+	conda install -c conda-forge faiss=1.8.0 faiss-gpu=1.8.0 
+
+	pip install torch==2.4.1+cu121 --extra-index-url https://download.pytorch.org/whl/cu121 
+
+	pip install -r requirements.txt
+
+	python app1.py
+	
+
+    Then, After the FastApi is running, in Another terminal,
+
+	streamlit run streamlit_app.py
+
+
+
+For running on Colab, Please upload the archive.zip and Use T4 GPU for running it

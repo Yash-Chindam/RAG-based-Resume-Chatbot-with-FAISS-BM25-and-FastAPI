@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+streamlit
+pydantic
+transformers
+sentence-transformers
+langchain
+pypdf2
+rank-bm25
+huggingface-hub
+langchain-community
+python-dotenv
+langchain-huggingface
+
